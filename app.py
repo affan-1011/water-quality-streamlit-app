@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 # Load the trained Random Forest model
-# Make sure 'random_forest_model.pkl' is in the same directory as this app.py file
+
 model = joblib.load('random_forest_model.pkl')
 
 CORRECTION_SUGGESTIONS = {
